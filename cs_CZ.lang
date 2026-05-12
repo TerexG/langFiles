@@ -129,7 +129,7 @@ screen.ATM_COLOR_SETTINGS.comment=Umožňuje úpravu barev atmosféry, které js
 screen.MORNING_ATM_MULTS=Východ/západ slunce
 screen.NOON_ATM_MULTS=Poledne
 screen.NIGHT_ATM_MULTS=Noc
-screen.RAIN_ATM_MULTS=Deštné počasí
+screen.RAIN_ATM_MULTS=Deštivé počasí
 screen.NETHER_ATM_MULTS=Nether dimenze
 screen.END_ATM_MULTS=End dimenze
 
@@ -181,30 +181,30 @@ screen.IPBR_SETTINGS.comment=Nastavení vztahující se k funckím IntegratedPBR
 screen.GLOWING_ORE_SETTINGS=Svítící rudy
 screen.GLOWING_ORE_SETTINGS.comment=Nastavení pro upravení emise bloků rudy.
 
-screen.GLOWING_STUFF_SETTINGS=Glowing Stuff
-screen.GLOWING_STUFF_SETTINGS.comment=Settings to adjust emission of miscellaneous blocks.
+screen.GLOWING_STUFF_SETTINGS=Svítící věci
+screen.GLOWING_STUFF_SETTINGS.comment=Nastavení pro upravení emise různých bloků.
 
-screen.OTHER_IPBR_SETTINGS=Other IPBR+ Features
-screen.OTHER_IPBR_SETTINGS.comment=Miscellaneous IntegratedPBR+ settings.
+screen.OTHER_IPBR_SETTINGS=Ostatní funcke IPBR+
+screen.OTHER_IPBR_SETTINGS.comment=Různá nastavení IntegratedPBR+.
 
-screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr Materials
-screen.CUSTOM_PBR_SETTINGS.comment=Settings that are related to the features of labPBR/seuspbr.
+screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr materiály
+screen.CUSTOM_PBR_SETTINGS.comment=Nastavení vztahující se k funkcím labPBR/seuspbr.
 
-screen.LIGHTING_SETTINGS=Lighting
-screen.LIGHTING_SETTINGS.comment=Settings that are related to lighting.
+screen.LIGHTING_SETTINGS=Osvětlení
+screen.LIGHTING_SETTINGS.comment=Nastavení vztahující se k osvětlení.
 
-screen.LIGHT_COLOR_SETTINGS=Lighting Color Multipliers
-screen.LIGHT_COLOR_SETTINGS.comment=Enables customization of lighting colors that are seen on all surfaces.
+screen.LIGHT_COLOR_SETTINGS=Násobiče barev osvětlení
+screen.LIGHT_COLOR_SETTINGS.comment=Umožňuje úpravu barev osvětlení, které jsou vidět na všech plochách.
 
-screen.MORNING_LIGHT_MULTS=Sunrise/Sunset Time
-screen.NOON_LIGHT_MULTS=Noon Time
-screen.NIGHT_LIGHT_MULTS=Night Time
-screen.RAIN_LIGHT_MULTS=Rainy Weather
-screen.NETHER_LIGHT_MULTS=The Nether Dimension
-screen.END_LIGHT_MULTS=The End Dimension
+screen.MORNING_LIGHT_MULTS=Východ/západ slunce
+screen.NOON_LIGHT_MULTS=Poledne
+screen.NIGHT_LIGHT_MULTS=Noc
+screen.RAIN_LIGHT_MULTS=Deštivé počasí
+screen.NETHER_LIGHT_MULTS=Nether dimenze
+screen.END_LIGHT_MULTS=End dimenze
 
-screen.BLOCKLIGHT_SETTINGS=Blocklight §e[*]§r
-screen.BLOCKLIGHT_SETTINGS.comment=Settings to adjust the lighting emitted from light source blocks. §e[*]§r The red/green/blue color settings won't affect most lights if the Advanced Color Tracing setting is enabled.
+screen.BLOCKLIGHT_SETTINGS=Světlo bloků §e[*]§r
+screen.BLOCKLIGHT_SETTINGS.comment=Nastavení pro úpravu světla vydávaného bloky, které jsou zdrojem světla. §e[*]§r Nastavení červené/zelené/modré barvy neovlivní většinu světel pokud je zapnuto nastavení Pokročilé trasování světel.
 
 screen.MOON_PHASE_INF_SETTINGS=Moon Phase Influence
 screen.MOON_PHASE_INF_SETTINGS.comment=Settings to determine how different moon phases affect the night lighting.
