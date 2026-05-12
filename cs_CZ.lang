@@ -112,7 +112,7 @@ option.info22.comment=Je možné, že na velkých velikostech GUI jsou některá
 
 #Style
 option.SHADER_STYLE=Vizuální styl
-option.SHADER_STYLE.comment=Určuje výchozí vizuální styl balíčku shaderů. §bReimagined§r: Doplňuje Minecraft zatímco zachovává jeho unikátní vizuální elementy. §dUnbound§r: Přepracovává vzhled Minecraftu polorealistickým Fantasy stylem. §e[*]§r Změněná nastavení: Styl vody, Styl mraků, Styl Slunce/Měsíce, Úhel Slunce/Měsíce, Styl polární záře, Svítivé rudy.
+option.SHADER_STYLE.comment=Určuje výchozí vizuální styl balíčku shaderů. §bReimagined§r: Doplňuje Minecraft zatímco zachovává jeho unikátní vizuální elementy. §dUnbound§r: Přepracovává vzhled Minecraftu polorealistickým Fantasy stylem. §e[*]§r Změněná nastavení: Styl vody, Styl mraků, Styl Slunce/Měsíce, Úhel Slunce/Měsíce, Styl polární záře, Svítící rudy.
 value.SHADER_STYLE.1=§bReimagined
 value.SHADER_STYLE.4=§dUnbound
 
@@ -176,10 +176,10 @@ screen.MATERIAL_SETTINGS=Materiály
 screen.MATERIAL_SETTINGS.comment=Nastavení vztahující se k materiálům Minecraftu.
 
 screen.IPBR_SETTINGS=IntegratedPBR+ materiály
-screen.IPBR_SETTINGS.comment=Settings that are related to the features of IntegratedPBR+.
+screen.IPBR_SETTINGS.comment=Nastavení vztahující se k funckím IntegratedPBR+.
 
-screen.GLOWING_ORE_SETTINGS=Glowing Ores
-screen.GLOWING_ORE_SETTINGS.comment=Settings to adjust emission of ore blocks.
+screen.GLOWING_ORE_SETTINGS=Svítící rudy
+screen.GLOWING_ORE_SETTINGS.comment=Nastavení pro upravení emise bloků rudy.
 
 screen.GLOWING_STUFF_SETTINGS=Glowing Stuff
 screen.GLOWING_STUFF_SETTINGS.comment=Settings to adjust emission of miscellaneous blocks.
