@@ -1405,7 +1405,7 @@ screen.POPULAR_SETTINGS=§dPopular Settings
 screen.POPULAR_SETTINGS.comment=These are some of the most popular settings in Euphoria Patches. Apart from Advanced Colored Tracing (which is needed for a lot of effects), all options in here are exclusive to Euphoria Patches and cannot be found in the Original Complementary Shaderpack.
 screen.POPULAR_SETTINGS_2=Page 2
 screen.POPULAR_SETTINGS_3=Page 3
-screen.EP_VERSION=Euphoria Patches §d1.9.0
+screen.EP_VERSION=Euphoria Patches §d1.9.1
 screen.EP_VERSION.comment=§bYou can support SpacEagle17 on Patreon or Ko-Fi and get new Exclusive Beta Versions. §r§d§l§neuphoriapatches.com/support
 
 screen.MODDED_SETTINGS=Modded Settings
@@ -2070,6 +2070,7 @@ value.tonemap.filmic=Filmic
 value.tonemap.GTTonemap=Gran Turismo
 value.tonemap.uchimura=Uchimura
 value.tonemap.agxTonemap=AgX
+value.tonemap.doSimpleTonemap=Simple
 
 option.TONEMAP_COMPARISON=Tonemap Comparison
 option.TONEMAP_COMPARISON.comment=Option to compare tonemaps
@@ -2089,6 +2090,7 @@ value.tonemap_left.filmic=Filmic
 value.tonemap_left.GTTonemap=Gran Turismo
 value.tonemap_left.uchimura=Uchimura
 value.tonemap_left.agxTonemap=AgX
+value.tonemap_left.doSimpleTonemap=Simple
 
 option.tonemap_right=Tonemap Right
 option.tonemap_right.comment=Changes which tonemap is used.
@@ -2105,6 +2107,7 @@ value.tonemap_right.filmic=Filmic
 value.tonemap_right.GTTonemap=Gran Turismo
 value.tonemap_right.uchimura=Uchimura
 value.tonemap_right.agxTonemap=AgX
+value.tonemap_right.doSimpleTonemap=Simple
 
 option.ACES_EXPOSURE=Exposure
 option.ACES_EXPOSURE.comment=Adjusts the overall brightness of the image.
