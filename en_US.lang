@@ -1405,7 +1405,7 @@ screen.POPULAR_SETTINGS=§dPopular Settings
 screen.POPULAR_SETTINGS.comment=These are some of the most popular settings in Euphoria Patches. Apart from Advanced Colored Tracing (which is needed for a lot of effects), all options in here are exclusive to Euphoria Patches and cannot be found in the Original Complementary Shaderpack.
 screen.POPULAR_SETTINGS_2=Page 2
 screen.POPULAR_SETTINGS_3=Page 3
-screen.EP_VERSION=Euphoria Patches §d1.9.1
+screen.EP_VERSION=Euphoria Patches §d1.9.3
 screen.EP_VERSION.comment=§bYou can support SpacEagle17 on Patreon or Ko-Fi and get new Exclusive Beta Versions. §r§d§l§neuphoriapatches.com/support
 
 screen.MODDED_SETTINGS=Modded Settings
@@ -2938,8 +2938,11 @@ suffix.PHOTONICS_VANILLA_LIGHT_FALLBACK=\%
 option.PHOTONICS_ENCHANTING_GLINT_STRENGTH=Enchanting Glint Strength
 option.PHOTONICS_ENCHANTING_GLINT_STRENGTH.comment=Changes the strength of the light emitted by enchanted items when using Photonics lighting.
 
-option.PHOTONICS_SEPARATE_HANDHELD_RAYS=Separate Handheld Rays
-option.PHOTONICS_SEPARATE_HANDHELD_RAYS.comment=Whether both handheld lights should cast shadows. When disabled only one shadow will be cast\n\n§aMinimal performance impact
+option.PHOTONICS_HANDHELD_MODE=Handheld Light Mode
+option.PHOTONICS_HANDHELD_MODE.comment=Changes the way handheld lights are rendered in the Photonics mod.\n\nOff - Handheld lights are not rendered at all via Photonics\Single - Only one of the handheld lights will cast shadows\nSeparate - Both handheld lights will cast separate shadows\n\n§aMinimal performance impact
+value.PHOTONICS_HANDHELD_MODE.0=Off
+value.PHOTONICS_HANDHELD_MODE.1=Separate
+value.PHOTONICS_HANDHELD_MODE.2=Single
 
 option.PHOTONICS_AMBIENT_LIGHT_MULT=Ambient Light Multiplier
 option.PHOTONICS_AMBIENT_LIGHT_MULT.comment=Option to change how much default ambient light should be used alongside Photonics lighting. §e[*]§r This option only works if Photonics is installed.
@@ -2980,10 +2983,15 @@ value.PHOTONICS_MAX_ALLOWED_DISTANCE.100=Render Distance
 
 
 option.CUSTOM_SKY_SUPPORT=Custom Skybox Support
-option.CUSTOM_SKY_SUPPORT.comment=Adds support for custom skyboxes including modded ones such as Stellar View.
+option.CUSTOM_SKY_SUPPORT.comment=Adds support for custom skyboxes including modded ones such as Stellar View. The slider changes the alpha mix of the skybox, only change it if there are issues.
+value.CUSTOM_SKY_SUPPORT.0=OFF
+value.CUSTOM_SKY_SUPPORT.10=On
 
 option.CUSTOM_SKY_MOD_SUPPORT=Sky Mod Support
 option.CUSTOM_SKY_MOD_SUPPORT.comment=Adds support for custom sky mods such as Caelum or Astrocraft. Might perhaps break some things, not tested with many mods.
+
+option.SAVE_SKYBOX_DATA_OVERRIDE=Save Skybox Data
+option.SAVE_SKYBOX_DATA_OVERRIDE.comment=Allows the shaderpack to save the custom skybox to a buffer, this happens automatically when a skybox mod is installed but can occasionally cause issues with certain mods that change the skybox as well, thus this option allows you to disable it.
 
 option.DISTANT_HORIZONS_SSAO=Edge Shadow (SSAO)
 option.DISTANT_HORIZONS_SSAO.comment=Enables SSAO (Screen Space Ambient Occlusion) in Distant Horizons Chunks. §e[*]§r This option only works if Distant Horizons is installed. §e[*]§r Requires Edge Shadow (SSAO) Quality to be set to not be set to OFF in the Performance Settings.
@@ -2999,3 +3007,7 @@ value.PIXELATED_SHADOWS_MODE.16=Manual 16x
 value.PIXELATED_SHADOWS_MODE.32=Manual 32x
 value.PIXELATED_SHADOWS_MODE.64=Manual 64x
 value.PIXELATED_SHADOWS_MODE.128=Manual 128x
+
+option.PANINI_PROJECTION=Panini Projection
+option.PANINI_PROJECTION.comment=Enables Panini Projection, which is a type of projection that reduces distortion at the edges of the screen, especially when using a high field of view (FOV). §e[-]§r Can make the image look stretched in the center, or blurrier overall.
+value.PANINI_PROJECTION.0=OFF
